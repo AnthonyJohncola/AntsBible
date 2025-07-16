@@ -3,13 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ant Johncola | Portfolio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Your Name | Portfolio</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: white;
+      color: black;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    nav {
+      background-color: #f5f5f5;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1, h2 {
+      font-weight: normal;
+    }
+  </style>
 </head>
-<body class="bg-white text-gray-900 font-sans">
-  <section class="min-h-screen flex flex-col items-center justify-center text-center">
-    <h1 class="text-5xl font-bold">Hi, I'm Ant</h1>
-    <p class="mt-4 text-xl text-gray-600">Welcome to my portfolio</p>
-  </section>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h1>Your Full Name</h1>
+    <h2>Welcome to My Portfolio</h2>
+    <p>This site is styled like an MLA paper — clean, formal, and focused on content. Here you'll find my work, background, and ways to get in touch.</p>
+  </div>
 </body>
 </html>
